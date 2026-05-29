@@ -216,3 +216,48 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------
+# Masteroppgave: project-specific safety rules
+# ---------------------------------------------------------
+
+# Local document working files
+_docx_review_tmp2/
+*.tmp
+~$*
+
+# Raw and derived data (keep out of public repo unless explicitly approved)
+alle_enheter.json
+enheter_*.json
+enheter_*.json.gz
+alle_enheter_AS_ASA.csv
+analyseklare_enheter.csv
+feature_engineered_enheter.csv
+organisasjonsnumre_as_asa.csv
+robusthet_lekkasje_resultater.csv
+modellresultater_terskler.csv
+modellresultater_terskler_med_f1.csv
+variabeloversikt_modell.csv
+variabeloversikt_modell_med_effekt.csv
+rensetabell_datavask.csv
+
+# Generated plots and binary artifacts
+*.png
+*.xlsx
+*.pdf
+figurer*/
+
+# Thesis drafts and office files
+*.docx
+
+# Repro package artifacts
+vedlegg/output/
+
+# Keep reproducibility package source files
+!vedlegg/README.md
+!vedlegg/requirements.txt
+!vedlegg/run_reproduksjon.py
+!vedlegg/metadata_datafreeze.json
+!vedlegg/data/README.md
+!vedlegg/scripts/
+!vedlegg/scripts/*.py

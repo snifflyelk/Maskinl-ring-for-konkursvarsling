@@ -1,0 +1,13 @@
+{
+  "data_snapshot_file": "alle_enheter.json",
+  "data_snapshot_location": "project_root",
+  "data_snapshot_sha256": "541F9D74E6EF7AB9DAB8F6C17CB2988D052F2B225893CCB329B2829FC4F66032",
+  "data_snapshot_size_bytes": 1897974249,
+  "data_snapshot_created_local": "2026-02-04T06:32:21",
+  "data_snapshot_last_write_local": "2026-02-04T06:32:24",
+  "feature_reference_date": "2026-02-04",
+  "notes": [
+    "Eksakt reproduksjon forutsetter bruk av lagret snapshot-fil over.",
+    "Ny API-uthenting kan gi avvik fordi registerdata endres over tid."
+  ]
+}
