@@ -249,6 +249,7 @@ figurer*/
 
 # Thesis drafts and office files
 *.docx
+metodeavsnitt_datavask_med_tall.txt
 
 # Repro package artifacts
 vedlegg/output/
